@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* moodiAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* moodiAppTests.m */; };
+		0B85DBEA7D9A4F0AAD8DA490 /* Baloo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5709AC04274EE995FDA269 /* Baloo2-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		178D1F2F555B452FABE43AF6 /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D37C44E1C8784B4E93D2AA7A /* FugazOne-Regular.ttf */; };
+		520629A58EF04C7EA3C1F101 /* Baloo2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5E87A29BD8D4E188DC61FB9 /* Baloo2-Regular.ttf */; };
 		58C9D8C79534189F9D1654AF /* libPods-moodiApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1155F054085F89BD790E83A /* libPods-moodiApp.a */; };
+		6D05A1097E9E4598A10A5794 /* OdAmumal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C125954BE11C4FA9825CD770 /* OdAmumal.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		C038C212786F280F6DC2A0F8 /* libPods-moodiApp-moodiAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9830179CA8BA3FE4731E6220 /* libPods-moodiApp-moodiAppTests.a */; };
+		CA1909961BC741B88EF0F7CC /* Baloo2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09955063388F489E80312CA5 /* Baloo2-ExtraBold.ttf */; };
+		E3C1CF040022436983579E5C /* Baloo2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B30F5D97B1484B418F2F6C4D /* Baloo2-Medium.ttf */; };
+		F92409E66E82429CA8859C49 /* Baloo2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B6A9EA23A8B4D1AB43B082D /* Baloo2-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,18 +38,41 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* moodiAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moodiAppTests.m; sourceTree = "<group>"; };
 		063C115E8F755C12B0BF8041 /* Pods-moodiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodiApp.debug.xcconfig"; path = "Target Support Files/Pods-moodiApp/Pods-moodiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		09955063388F489E80312CA5 /* Baloo2-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-ExtraBold.ttf"; path = "../assets/fonts/Baloo2-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0B6A9EA23A8B4D1AB43B082D /* Baloo2-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-SemiBold.ttf"; path = "../assets/fonts/Baloo2-SemiBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* moodiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = moodiApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = moodiApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = moodiApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = moodiApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = moodiApp/main.m; sourceTree = "<group>"; };
+		1A100CE8DCCF4F1C99308A9B /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		1F3C16726B444C26B09B3BA9 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		34834038F3E941A5918DD6DE /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		3F6B52AC27A44202A4CCCB70 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		42A8FD733DC64089AF27EBD4 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		47B5374D72D54F638B78EBE7 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		72DDD2D98FEE4EB682C5D28D /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		782A70B3504A25B7EBDD3136 /* Pods-moodiApp-moodiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodiApp-moodiAppTests.release.xcconfig"; path = "Target Support Files/Pods-moodiApp-moodiAppTests/Pods-moodiApp-moodiAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = moodiApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8208B0086D634C44AA6066A7 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		82D16C0806AD9121AC6E3E49 /* Pods-moodiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodiApp.release.xcconfig"; path = "Target Support Files/Pods-moodiApp/Pods-moodiApp.release.xcconfig"; sourceTree = "<group>"; };
+		901877EF7C014ABFB61F91A1 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		9830179CA8BA3FE4731E6220 /* libPods-moodiApp-moodiAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moodiApp-moodiAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5709AC04274EE995FDA269 /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-Bold.ttf"; path = "../assets/fonts/Baloo2-Bold.ttf"; sourceTree = "<group>"; };
+		B30F5D97B1484B418F2F6C4D /* Baloo2-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-Medium.ttf"; path = "../assets/fonts/Baloo2-Medium.ttf"; sourceTree = "<group>"; };
+		C125954BE11C4FA9825CD770 /* OdAmumal.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OdAmumal.ttf; path = ../assets/fonts/OdAmumal.ttf; sourceTree = "<group>"; };
+		C571ADA301B24B6F94543BB2 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		C5E87A29BD8D4E188DC61FB9 /* Baloo2-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Baloo2-Regular.ttf"; path = "../assets/fonts/Baloo2-Regular.ttf"; sourceTree = "<group>"; };
+		C94C26FCBFC6456CAE28DF04 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		CA956B58B57E4E6D96B6FD28 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		D2DA98B27CB14FF894218FF2 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		D37C44E1C8784B4E93D2AA7A /* FugazOne-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FugazOne-Regular.ttf"; path = "../assets/fonts/FugazOne-Regular.ttf"; sourceTree = "<group>"; };
+		DDF712FBA904411C949C79E6 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		E0A4FD1A01744135BD1ED6C3 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		E1155F054085F89BD790E83A /* libPods-moodiApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moodiApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED5F973660EF4B1F86C1AE71 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		FAC97320B64AB24EDF2D9C49 /* Pods-moodiApp-moodiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodiApp-moodiAppTests.debug.xcconfig"; path = "Target Support Files/Pods-moodiApp-moodiAppTests/Pods-moodiApp-moodiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +152,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C2FB4D89691D049C316D9C38 /* Pods */,
+				BC0A01DE81DC4A959B4AC9D1 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,6 +168,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BC0A01DE81DC4A959B4AC9D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA956B58B57E4E6D96B6FD28 /* AntDesign.ttf */,
+				47B5374D72D54F638B78EBE7 /* Entypo.ttf */,
+				8208B0086D634C44AA6066A7 /* EvilIcons.ttf */,
+				1A100CE8DCCF4F1C99308A9B /* Feather.ttf */,
+				C94C26FCBFC6456CAE28DF04 /* FontAwesome.ttf */,
+				1F3C16726B444C26B09B3BA9 /* FontAwesome5_Brands.ttf */,
+				DDF712FBA904411C949C79E6 /* FontAwesome5_Regular.ttf */,
+				34834038F3E941A5918DD6DE /* FontAwesome5_Solid.ttf */,
+				C571ADA301B24B6F94543BB2 /* Fontisto.ttf */,
+				D2DA98B27CB14FF894218FF2 /* Foundation.ttf */,
+				E0A4FD1A01744135BD1ED6C3 /* Ionicons.ttf */,
+				3F6B52AC27A44202A4CCCB70 /* MaterialCommunityIcons.ttf */,
+				901877EF7C014ABFB61F91A1 /* MaterialIcons.ttf */,
+				ED5F973660EF4B1F86C1AE71 /* Octicons.ttf */,
+				72DDD2D98FEE4EB682C5D28D /* SimpleLineIcons.ttf */,
+				42A8FD733DC64089AF27EBD4 /* Zocial.ttf */,
+				AC5709AC04274EE995FDA269 /* Baloo2-Bold.ttf */,
+				09955063388F489E80312CA5 /* Baloo2-ExtraBold.ttf */,
+				B30F5D97B1484B418F2F6C4D /* Baloo2-Medium.ttf */,
+				C5E87A29BD8D4E188DC61FB9 /* Baloo2-Regular.ttf */,
+				0B6A9EA23A8B4D1AB43B082D /* Baloo2-SemiBold.ttf */,
+				D37C44E1C8784B4E93D2AA7A /* FugazOne-Regular.ttf */,
+				C125954BE11C4FA9825CD770 /* OdAmumal.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C2FB4D89691D049C316D9C38 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +206,6 @@
 				FAC97320B64AB24EDF2D9C49 /* Pods-moodiApp-moodiAppTests.debug.xcconfig */,
 				782A70B3504A25B7EBDD3136 /* Pods-moodiApp-moodiAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,7 +220,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5D82888D357296FCEE1366D9 /* [CP] Embed Pods Frameworks */,
 				E99F8F766DBE212248E5813B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -183,7 +242,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				34B916328302513E83048C8B /* [CP] Embed Pods Frameworks */,
 				7F13CB17C86A07A4D935D525 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -245,6 +303,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0B85DBEA7D9A4F0AAD8DA490 /* Baloo2-Bold.ttf in Resources */,
+				CA1909961BC741B88EF0F7CC /* Baloo2-ExtraBold.ttf in Resources */,
+				E3C1CF040022436983579E5C /* Baloo2-Medium.ttf in Resources */,
+				520629A58EF04C7EA3C1F101 /* Baloo2-Regular.ttf in Resources */,
+				F92409E66E82429CA8859C49 /* Baloo2-SemiBold.ttf in Resources */,
+				178D1F2F555B452FABE43AF6 /* FugazOne-Regular.ttf in Resources */,
+				6D05A1097E9E4598A10A5794 /* OdAmumal.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,23 +329,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
-		};
-		34B916328302513E83048C8B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-moodiApp/Pods-moodiApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-moodiApp/Pods-moodiApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moodiApp/Pods-moodiApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		45DE7A590EDA5BA06DCAE9B4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -302,23 +350,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D82888D357296FCEE1366D9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-moodiApp-moodiAppTests/Pods-moodiApp-moodiAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-moodiApp-moodiAppTests/Pods-moodiApp-moodiAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moodiApp-moodiAppTests/Pods-moodiApp-moodiAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7F13CB17C86A07A4D935D525 /* [CP] Copy Pods Resources */ = {
