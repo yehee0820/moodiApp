@@ -36,7 +36,8 @@ const SignUpScreen = ({navigation}) => {
         {
           headers: {
             Accept: 'application/json',
-            'Content-type': 'application/json',
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
           },
         },
       )
