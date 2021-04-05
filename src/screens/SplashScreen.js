@@ -23,19 +23,12 @@ const SplashScreen = ({navigation}) => {
         <Animatable.Image
           animation="bounceIn"
           duraton="8000"
-          source={require('../../assets/images/snoopyrun.png')}
+          source={require('../../assets/images/moodicharacter.png')}
           style={styles.logo}
           resizeMode="contain"
         />
       </View>
-      <Animatable.View
-        style={[
-          styles.footer,
-          {
-            backgroundColor: colors.background,
-          },
-        ]}
-        animation="fadeInUpBig">
+      <Animatable.View style={[styles.footer]} animation="fadeInUpBig">
         <Text
           style={[
             styles.title,
@@ -64,12 +57,12 @@ const SplashScreen = ({navigation}) => {
 export default SplashScreen;
 
 const {height} = Dimensions.get('screen');
-const height_logo = height * 0.28;
+const height_logo = height * 0.45;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffee6b',
+    backgroundColor: '#fffbf2',
   },
   header: {
     flex: 2,
@@ -78,9 +71,9 @@ const styles = StyleSheet.create({
   },
   footer: {
     flex: 1,
-    backgroundColor: '#fff',
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
+    backgroundColor: '#fff6a3',
+    borderTopLeftRadius: 0,
+    borderTopRightRadius: 0,
     paddingVertical: 50,
     paddingHorizontal: 30,
   },

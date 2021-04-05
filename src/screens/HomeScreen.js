@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
   View,
   Text,
@@ -9,11 +9,27 @@ import {
 } from 'react-native';
 import {useTheme} from '@react-navigation/native';
 import CalendarStrip from 'react-native-calendar-strip';
+import moodiQuest from '../../assets/data/moodiQuest.json';
 // import CheckBox from 'react-native-check-box';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const HomeScreen = ({navigation}) => {
+  const [Quest, setQuest] = useState({
+    quest1: '',
+    quest2: '',
+    quest3: '',
+  });
+
+  const giveQuest = () => {
+    //setInterval()로 시간 설정
+    //자정 될 때마다 0,1,2 가져옴
+    //가져와서 quest1, 2, 3에 저장
+    //그 i += 3 처럼 해서 다음 날 다른 거 가져오도록
+    //list에 51개가 있다고 할 때 if i == 51 되면 리스트 전체 재시작
+    //해외에서 사용하는 경우에도 자정에 뜰 수 있게 시간 맞추기
+  };
+
   const {colors} = useTheme();
 
   const theme = useTheme();
@@ -56,9 +72,7 @@ const HomeScreen = ({navigation}) => {
           오늘의 미션을 수행하면 기분이 한결 나아질 거예요. Just Do it!
         </Text>
         <View style={styles.questBox}>
-          <Text style={styles.questBoxText}>
-            하루가 가기 전에 고마움 표현하기
-          </Text>
+          <Text style={styles.questBoxText}>{moodiQuest[0].mission}</Text>
           {/* <CheckBox style={styles.questCheck} /> */}
         </View>
         <View style={styles.questBox}>
