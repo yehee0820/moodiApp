@@ -10,16 +10,43 @@ import {
 import {useTheme} from '@react-navigation/native';
 import CalendarStrip from 'react-native-calendar-strip';
 import moodiQuest from '../../assets/data/moodiQuest.json';
-// import CheckBox from 'react-native-check-box';
+import CheckBox from '@react-native-community/checkbox';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const HomeScreen = ({navigation}) => {
   const [Quest, setQuest] = useState({
-    quest1: '',
-    quest2: '',
-    quest3: '',
+    quest01: '',
+    quest02: '',
+    quest03: '',
   });
+
+  const [Checkbox, setCheckbox] = useState({
+    checkbox01: false,
+    checkbox02: false,
+    checkbox03: false,
+  });
+
+  const changeCheckbox01 = e => {
+    setCheckbox({
+      ...Checkbox,
+      checkbox01: true,
+    });
+  };
+
+  const changeCheckbox02 = e => {
+    setCheckbox({
+      ...Checkbox,
+      checkbox02: true,
+    });
+  };
+
+  const changeCheckbox03 = e => {
+    setCheckbox({
+      ...Checkbox,
+      checkbox03: true,
+    });
+  };
 
   const giveQuest = () => {
     //setInterval()로 시간 설정
@@ -73,17 +100,32 @@ const HomeScreen = ({navigation}) => {
         </Text>
         <View style={styles.questBox}>
           <Text style={styles.questBoxText}>{moodiQuest[0].mission}</Text>
-          {/* <CheckBox style={styles.questCheck} /> */}
+          <CheckBox
+            style={styles.questCheck}
+            disabled={false}
+            value={Checkbox.checkbox01}
+            onValueChange={changeCheckbox01}
+          />
         </View>
         <View style={styles.questBox}>
           <Text style={styles.questBoxText}>
             주말에 뭐 먹을지 행복한 고민하기
           </Text>
-          {/* <CheckBox style={styles.questCheck} /> */}
+          <CheckBox
+            style={styles.questCheck}
+            disabled={false}
+            value={Checkbox.checkbox02}
+            onValueChange={changeCheckbox02}
+          />
         </View>
         <View style={styles.questBox}>
           <Text style={styles.questBoxText}>오늘 하늘 3번 보기</Text>
-          {/* <CheckBox style={styles.questCheck} /> */}
+          <CheckBox
+            style={styles.questCheck}
+            disabled={false}
+            value={Checkbox.checkbox03}
+            onValueChange={changeCheckbox03}
+          />
         </View>
       </View>
 
@@ -219,7 +261,7 @@ const styles = StyleSheet.create({
     color: 'black',
   },
   questCheck: {
-    marginRight: 20,
+    marginRight: 25,
   },
 
   //mainPoint(사용자 보상, 레벨 확인)
